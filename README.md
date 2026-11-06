@@ -8,7 +8,7 @@ Propor e modelar um sistema para organizar o aluguel de veículos, permitindo o 
 
 ## Integrantes:
 - Daniel Vante Ovando — GitHub: a informar
-- Gabriel Colman Martins — GitHub: a informar
+- Gabriel Colman Martins — GitHub: GabrielColman07
 - Lucas Van Santen Senchechem — GitHub: LucasSenchechem
 - Pedro Gabriel Sansana — GitHub: a informar
 - Vinicius Miara Staichoki — GitHub: a informar
