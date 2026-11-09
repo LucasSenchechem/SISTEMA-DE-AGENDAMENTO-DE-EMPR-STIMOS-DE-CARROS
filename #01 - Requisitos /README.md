@@ -9,4 +9,8 @@
 # Regras de Negócio:
 <img width="1900" height="1090" alt="image" src="https://github.com/user-attachments/assets/a7972d61-0f97-455b-9247-9bfd7ed134a7" />
 
+# Análise de conflitos,ambiguidade e restrições:
+<img width="765" height="1024" alt="image" src="https://github.com/user-attachments/assets/94e016c9-4165-4b82-a6b0-776e17f95168" />
+
+
 
