@@ -11,7 +11,7 @@ Propor e modelar um sistema para organizar o aluguel de veículos, permitindo o 
 - Gabriel Colman Martins — GitHub: GabrielColman07
 - Lucas Van Santen Senchechem — GitHub: LucasSenchechem
 - Pedro Gabriel Sansana — GitHub: PedroSansana
-- Vinicius Miara Staichoki — GitHub: Vinicius_Miara_Staichocki
+- Vinicius Miara Staichoki — GitHub: Vinicius-Miara-Staichocki
 
 ## Funcionalidades principais:
 - Cadastro, consulta, atualização e remoção de veículos
