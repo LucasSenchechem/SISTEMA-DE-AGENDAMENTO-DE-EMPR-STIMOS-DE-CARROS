@@ -1,4 +1,4 @@
-## Arquitetura do Sistema
+# Arquitetura do Sistema
 
 O Sistema de Agendamento de Empréstimos de Carros foi projetado utilizando uma arquitetura em camadas, seguindo o modelo cliente-servidor, com acesso por meio de navegadores web.
 
