@@ -4,7 +4,7 @@ A modelagem do sistema foi desenvolvida para representar as principais funcional
 
 Foram utilizados diagramas UML (Linguagem de Modelagem Unificada) para facilitar a compreensão da organização e do funcionamento do sistema.
 
-## Diagrama de Caso e Uso:
+### Diagrama de Caso e Uso:
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/6982e174-037e-43dd-90ca-bb4b156f8ffc" />
 
 O diagrama de casos de uso apresenta as principais funcionalidades disponíveis para os dois atores do sistema:
@@ -16,7 +16,7 @@ Funcionário: cadastrar, consultar, atualizar e remover veículos e clientes, re
 Esse diagrama permite visualizar como cada usuário interage com o sistema.
 
 
-## Diagrama de classes
+### Diagrama de classes
 <img width="2309" height="1817" alt="Diagrama em branco" src="https://github.com/user-attachments/assets/ad431729-b4c7-4c87-b890-2a3978eb87b8" />
 
 O diagrama de classes representa a estrutura do sistema, incluindo suas principais entidades:
@@ -31,7 +31,7 @@ Aluguel: registra a relação entre cliente e veículo, incluindo as informaçõ
 
 O modelo também contempla classes de gerenciamento, responsáveis por organizar as operações relacionadas a cada entidade.
 
-## Regra de Negócio
+### Regra de Negócio
 A modelagem considera regras importantes para garantir a consistência das informações, como:
 
 Um veículo não pode possuir dois aluguéis ativos simultaneamente.
