@@ -41,7 +41,7 @@ No diagrama de casos de uso, os requisitos funcionais foram representados por me
 
 Carros (RF01 a RF09): representados pelas funcionalidades de cadastrar, consultar, buscar, atualizar e remover veículos, além da consulta de carros disponíveis.
 
-Clientes (RF10 a RF15): representados pelas funcionalidades de cadastrar, consultar, buscar, atualizar e remover clientes.
+Clientes (RF10 a RF15): representados pelas funcionalidades de cadastrar, consultar, buscar, atualizar e apagar clientes.
 
 Aluguéis (RF16 a RF20): representados pelas funcionalidades de realizar aluguel, registrar devolução, listar aluguéis ativos, consultar histórico e gerar relatórios.
 
