@@ -52,3 +52,42 @@ O projeto considera os seguintes princípios de Engenharia de Software:
 - **Integridade dos dados:** operações de aluguel devem manter as informações consistentes, evitando registros conflitantes.
 
 Essa arquitetura foi definida para oferecer uma estrutura organizada, confiável e preparada para a evolução do sistema.
+
+### PROTOTIPAGEM DE INTERFACE (WIREFRAMES)
+
+<img width="511" height="398" alt="image" src="https://github.com/user-attachments/assets/0ef78a47-f78c-43ee-946a-cc7b7c9878c0" />
+
+Legenda: Tela de login, local para fazer a entrada no site como funcionário e cliente.
+
+<img width="809" height="510" alt="image" src="https://github.com/user-attachments/assets/8defc9d2-3e6b-455e-bfbb-a08c41d1cd6b" />
+
+Legenda: Tela de carros, mostra os carros cadastrados no sistema e também pode aplicar o filtro de disponibilidade e indisponibilidade.
+
+<img width="846" height="505" alt="image" src="https://github.com/user-attachments/assets/4a72e961-25a2-4167-9f30-0aa9faa690a0" />
+
+Legenda:Tela de cadastro/edição de carro, permite criar e editar carros.
+
+<img width="724" height="500" alt="image" src="https://github.com/user-attachments/assets/4300ebbc-2a19-4a1a-910f-c4396ba0c26b" />
+Legenda: Tela de clientes, cadastro, edição e busca de clientes.
+
+<img width="780" height="481" alt="image" src="https://github.com/user-attachments/assets/fc5a8cc1-21cb-4421-8ecb-c0b4cb2f3cab" />
+
+Legenda: Tela do aluguel, permite realizar o aluguel.
+
+<img width="762" height="481" alt="image" src="https://github.com/user-attachments/assets/0989e121-78cf-4903-94e1-f83dd8686a85" />
+
+Legenda: Tela de controle dos aluguéis, mostra os aluguéis ativos, permite registrar a devolução do veículo e consultar o histórico de aluguéis.
+
+<img width="409" height="539" alt="image" src="https://github.com/user-attachments/assets/5013ff1e-1284-4c6f-9eee-5b9cee86ce48" />
+
+Legenda: Tela de controle dos aluguéis, mostra os aluguéis ativos, permite registrar a devolução do veículo e consultar o histórico de aluguéis.
+
+
+
+
+
+
+
+
+
+
