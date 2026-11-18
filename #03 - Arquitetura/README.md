@@ -40,12 +40,46 @@ O funcionamento do sistema segue o seguinte processo:
 
 O projeto considera os seguintes princípios de Engenharia de Software:
 
-- **Separação de responsabilidades:** cada camada possui funções específicas.
-- **Encapsulamento:** os dados são manipulados por operações controladas.
-- **Baixo acoplamento:** busca reduzir a dependência entre os componentes.
-- **Alta coesão:** cada classe concentra funcionalidades relacionadas à sua responsabilidade.
-- **Manutenibilidade:** a organização facilita correções e futuras melhorias.
-- **Integridade dos dados:** operações de aluguel devem manter as informações consistentes, evitando registros conflitantes.
+- **Separação de responsabilidades:** O sistema foi organizado de modo que a
+interface com o usuário, as regras de negócio e o armazenamento dos dados
+possuam responsabilidades distintas. A camada de apresentação recebe as
+solicitações dos usuários, a camada de negócio processa as operações e verifica as
+regras estabelecidas, enquanto a camada de persistência realiza o acesso ao banco
+de dados. Essa separação facilita a compreensão e a manutenção do sistema.
+
+- **Encapsulamento:** Os dados e comportamentos das entidades deverão ser
+organizados de maneira que alterações importantes ocorram por meio de operações
+controladas. Por exemplo, a disponibilidade de um veículo não deverá ser
+modificada livremente pela interface, mas por operações que respeitem as regras de
+negócio. Isso contribui para evitar alterações indevidas e inconsistências nas
+informações.
+- **Princípio da Responsabilidade Única (SRP):** Cada classe ou componente deverá
+possuir uma responsabilidade principal. Por exemplo, a classe GerenciaVeiculo será
+responsável pelas operações relacionadas aos veículos, enquanto GerenciaCliente
+tratará das informações dos clientes. Já GerenciaAluguel coordena os processos de
+locação e devolução, evitando concentrar diferentes funcionalidades em uma única
+classe.
+- **Abstração e Inversão de Dependências:** A camada de negócio utilizará interfaces
+de repositório para consultar e armazenar informações, sem depender diretamente
+de uma tecnologia específica de banco de dados. Dessa forma, será possível
+modificar a implementação da persistência sem alterar as principais regras de
+negócio do sistema.
+
+- **Simplicidade e Reutilização:** Serão considerados os princípios KISS (Keep It
+Simple) e DRY (Don't Repeat Yourself), buscando soluções simples e evitando a
+duplicação desnecessária de regras e funcionalidades. Por exemplo, a verificação
+da disponibilidade de um veículo deverá ser centralizada na lógica de negócio, em
+vez de ser implementada separadamente em diferentes telas.
+
+- **Integridade dos dados:** As operações deverão respeitar as regras
+de negócio definidas anteriormente. Durante a realização de um aluguel, o registro
+da locação e a atualização da disponibilidade do veículo deverão ocorrer em uma
+única transação. Caso alguma etapa falhe, nenhuma alteração deverá ser
+confirmada, evitando que um veículo seja alugado simultaneamente para mais de
+um cliente.
+A aplicação desses princípios tem como objetivo produzir um projeto organizado,
+compreensível e preparado para futuras alterações, reduzindo a possibilidade de
+erros e facilitando a evolução do sistema
 
 Essa arquitetura foi definida para oferecer uma estrutura organizada, confiável e preparada para a evolução do sistema.
 
