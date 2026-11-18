@@ -33,12 +33,8 @@ Essa camada busca garantir a integridade, a consistência e a persistência dos 
 ### Fluxo de Funcionamento
 
 O funcionamento do sistema segue o seguinte processo:
+<img width="2720" height="2400" alt="fluxo_realizar_aluguel_sequencia" src="https://github.com/user-attachments/assets/f3322a4a-7545-45d2-9d1a-15b5e16f7c12" />
 
-1. O usuário realiza uma ação na interface.
-2. A camada de apresentação recebe a solicitação.
-3. A camada de negócio verifica as regras e processa a operação.
-4. A camada de persistência consulta ou atualiza os dados necessários.
-5. O resultado retorna para a interface e é apresentado ao usuário.
 
 ### Princípios Arquiteturais
 
