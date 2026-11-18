@@ -1,5 +1,15 @@
 # Projeto Integrador — Fundamentos de Engenharia de Software
 
+## Disciplina:
+Fundamentos de Engenharia de Software — UEPG
+
+## Integrantes:
+- Daniel Vante Ovando — GitHub: a informar
+- Gabriel Colman Martins — GitHub: GabrielColman07
+- Lucas Van Santen Senchechem — GitHub: LucasSenchechem
+- Pedro Gabriel Sansana — GitHub: PedroSansana
+- Vinicius Miara Staichoki — GitHub: Vinicius-Miara-Staichocki
+
 ## Nome do Sistema:
 Sistema de Agendamento de Empréstimos de Carros
 
@@ -8,13 +18,6 @@ A proposta busca facilitar o processo de locação, reduzir controles manuais e 
 
 ## Objetivo:
 Propor e modelar um sistema para organizar o aluguel de veículos, permitindo o cadastro de carros e clientes, o controle da disponibilidade, o registro de aluguéis e devoluções e a consulta ao histórico de locações.
-
-## Integrantes:
-- Daniel Vante Ovando — GitHub: a informar
-- Gabriel Colman Martins — GitHub: GabrielColman07
-- Lucas Van Santen Senchechem — GitHub: LucasSenchechem
-- Pedro Gabriel Sansana — GitHub: PedroSansana
-- Vinicius Miara Staichoki — GitHub: Vinicius-Miara-Staichocki
 
 ## Funcionalidades principais:
 - Cadastro, consulta, atualização e remoção de veículos
@@ -35,11 +38,9 @@ Propor e modelar um sistema para organizar o aluguel de veículos, permitindo o 
 - 06-manutencao — evolução, análise de mudanças e riscos
 - 07-entrega-final — documento final do projeto
 
-## Disciplina:
-Fundamentos de Engenharia de Software — UEPG
 
 ## Entrega
-26/11/2026 — documento final em PDF
+18/11/2026 — documento final em PDF
 Documento do projeto
 Projeto Integrador Final — Sistema de Agendamento de Empréstimos de Carros:
 https://docs.google.com/document/d/1FBrRSU87I5zeo1e-qQEgTvH3tBGnbW-K-Wgwjbck6Js/edit?usp=sharing
