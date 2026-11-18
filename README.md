@@ -30,13 +30,13 @@ Propor e modelar um sistema para organizar o aluguel de veículos, permitindo o 
 - Geração de relatórios
 
 ## Organização do projeto:
-- 01-requisitos — stakeholders, levantamento de requisitos e regras de negócio
-- 02-modelagem — diagramas e especificações dos casos de uso
-- 03-arquitetura — visão arquitetural e projeto do sistema
-- 04-verificacao-validacao — critérios de qualidade, verificação e validação
-- 05-testes — planejamento e casos de teste
-- 06-manutencao — evolução, análise de mudanças e riscos
-- 07-entrega-final — documento final do projeto
+- 01-requisitos: stakeholders, levantamento de requisitos e regras de negócio
+- 02-modelagem: diagramas e especificações dos casos de uso
+- 03-arquitetura:  visão arquitetural e projeto do sistema
+- 04-verificacao-validacao: critérios de qualidade, verificação e validação
+- 05-testes: planejamento e casos de teste
+- 06-manutencao: evolução, análise de mudanças e riscos
+- 07-entrega-final: documento final do projeto
 
 
 ## Entrega
