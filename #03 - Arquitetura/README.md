@@ -98,6 +98,7 @@ Legenda: Tela de carros, mostra os carros cadastrados no sistema e também pode 
 Legenda:Tela de cadastro/edição de carro, permite criar e editar carros.
 
 <img width="724" height="500" alt="image" src="https://github.com/user-attachments/assets/4300ebbc-2a19-4a1a-910f-c4396ba0c26b" />
+
 Legenda: Tela de clientes, cadastro, edição e busca de clientes.
 
 <img width="780" height="481" alt="image" src="https://github.com/user-attachments/assets/fc5a8cc1-21cb-4421-8ecb-c0b4cb2f3cab" />
