@@ -4,7 +4,7 @@
 Fundamentos de Engenharia de Software — UEPG
 
 ## Integrantes:
-- Daniel Vante Ovando — GitHub: a informar
+- Daniel Vante Ovando — GitHub: niel-da-ti
 - Gabriel Colman Martins — GitHub: GabrielColman07
 - Lucas Van Santen Senchechem — GitHub: LucasSenchechem
 - Pedro Gabriel Sansana — GitHub: PedroSansana
