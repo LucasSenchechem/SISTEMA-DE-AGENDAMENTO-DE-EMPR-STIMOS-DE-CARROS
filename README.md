@@ -3,6 +3,9 @@
 ## Nome do Sistema:
 Sistema de Agendamento de Empréstimos de Carros
 
+## Proposta:
+A proposta busca facilitar o processo de locação, reduzir controles manuais e melhorar a organização, a segurança e a confiabilidade das informações.
+
 ## Objetivo:
 Propor e modelar um sistema para organizar o aluguel de veículos, permitindo o cadastro de carros e clientes, o controle da disponibilidade, o registro de aluguéis e devoluções e a consulta ao histórico de locações.
 
