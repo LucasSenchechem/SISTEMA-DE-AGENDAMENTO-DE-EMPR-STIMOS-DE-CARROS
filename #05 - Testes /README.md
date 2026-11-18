@@ -59,7 +59,7 @@ Os casos de teste têm como objetivo verificar se as funcionalidades do sistema 
 - Condição inicial: Sistema com registros cadastrados.
 - Procedimento: Realizar buscas de veículos por ID e placa e de clientes por CPF, medindo o tempo de resposta.
 - Resultado esperado: Cada consulta deverá apresentar seu resultado em até 3 segundos.
-- 
+
 Os casos de teste apresentados serão utilizados durante as etapas de verificação do sistema, conforme o processo incremental definido no capítulo 5. A execução dos testes permitirá identificar possíveis falhas, corrigir inconsistências e avaliar se os requisitos estabelecidos foram atendidos.
 
 Os resultados descritos representam os comportamentos esperados do sistema, não constituindo evidência de testes já executados.
