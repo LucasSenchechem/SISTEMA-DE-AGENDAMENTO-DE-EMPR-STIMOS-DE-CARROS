@@ -31,21 +31,26 @@ Aluguel: registra a relação entre cliente e veículo, incluindo as informaçõ
 
 O modelo também contempla classes de gerenciamento, responsáveis por organizar as operações relacionadas a cada entidade.
 
-### Regra de Negócio
-A modelagem considera regras importantes para garantir a consistência das informações, como:
+### Mapeamento dos requisitos nos diagramas 
+O mapeamento dos requisitos e das regras de negócio nos modelos permite relacionar as funcionalidades e condições definidas anteriormente com os elementos apresentados nos diagramas de casos de uso e de classes. 
+Dessa forma, é possível verificar como as necessidades identificadas no sistema estão representadas na sua modelagem.
+Mapeamento dos Requisitos Funcionais:
+No diagrama de casos de uso, os requisitos funcionais foram representados por meio das principais ações disponíveis para os usuários:
 
-Um veículo não pode possuir dois aluguéis ativos simultaneamente.
+Carros (RF01 a RF09): representados pelas funcionalidades de cadastrar, consultar, buscar, atualizar e remover veículos, além da consulta de carros disponíveis.
+Clientes (RF10 a RF15): representados pelas funcionalidades de cadastrar, consultar, buscar, atualizar e remover clientes.
+Aluguéis (RF16 a RF20): representados pelas funcionalidades de realizar aluguel, registrar devolução, listar aluguéis ativos, consultar histórico e gerar relatórios.
 
-Apenas veículos disponíveis podem ser alugados.
+No diagrama de classes, esses requisitos estão relacionados às entidades Veículo, Cliente, Funcionário e Aluguel, além das classes responsáveis pelo gerenciamento de cada uma dessas partes do sistema.
+Mapeamento das Regras de Negócio:
+As regras de negócio estão relacionadas aos elementos do diagrama de classes, principalmente às informações e aos relacionamentos entre as entidades.
+RN01 e RN02: relacionadas à classe Veículo, que possui identificação e placa para o controle dos veículos cadastrados.
+RN03, RN04 e RN11: relacionadas à classe Veículo e ao seu status, que permite identificar sua disponibilidade para aluguel. Entretanto, a condição específica de manutenção ainda não está representada no diagrama.
+RN05 e RN06: relacionadas à classe Cliente, que armazena as informações cadastrais, incluindo o CPF.
+RN07: representada pelo relacionamento entre as classes Aluguel, Cliente e Veículo.
+RN08 e RN09: relacionadas à alteração do status do veículo durante o processo de aluguel e devolução.
+RN10: representada pelos atributos de data de retirada e data de devolução presentes na classe Aluguel.
+RN12: relacionada à funcionalidade de consulta do histórico de aluguéis, apresentada no diagrama de casos de uso.
 
-Cada veículo deve possuir uma placa única.
-
-Cada cliente deve possuir um CPF único.
-
-Após a devolução, o veículo volta a ficar disponível, desde que não necessite de manutenção.
-
-Os aluguéis encerrados permanecem registrados no histórico.
-
-Esses modelos servem como referência para o desenvolvimento, a implementação das funcionalidades e a realização dos testes do sistema.
 
 
